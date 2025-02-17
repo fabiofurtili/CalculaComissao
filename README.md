@@ -29,5 +29,53 @@ O **CalculaCom** é um programa desenvolvido para validar cálculos de comissõe
    ```bash
    pip install flet pandas
 
-Desenvolvido por
-Fábio Furtili
+3. Certifique-se de que o arquivo `dados.xlsx` esteja no mesmo diretório do script. Este arquivo deve conter uma planilha chamada `dados` com as colunas `Fator` e `Lista`.
+
+### Executando o Programa
+
+1. Navegue até o diretório do projeto.
+2. Execute o script Python:
+
+   ```bash
+   python calculacom.py
+   ```
+
+3. Insira os valores solicitados na interface:
+   - Preço Geral
+   - Preço Unitário
+   - ICMS (se houver)
+   - Encargos (se houver)
+
+4. Clique em **Calcular** para obter o fator de comissão e a lista de referência correspondente.
+
+### Exemplo de Uso
+
+1. Preencha os campos com os valores desejados.
+2. O programa exibirá:
+   - Fator de comissão com 3 casas decimais.
+   - Fator de comissão com 8 casas decimais.
+   - Lista de referência correspondente ao fator calculado.
+
+## Estrutura do Projeto
+
+- `calculacom.py`: Script principal do programa.
+- `dados.xlsx`: Arquivo Excel contendo a lista de fatores e referências.
+
+## Contribuição
+
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`).
+3. Commit suas mudanças (`git commit -m 'Adicionando NovaFeature'`).
+4. Push para a branch (`git push origin feature/NovaFeature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Desenvolvido por
+
+**Fábio Furtili**  
+[GitHub](https://github.com/fabiofurtili)
