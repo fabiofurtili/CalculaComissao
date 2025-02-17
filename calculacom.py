@@ -1,5 +1,5 @@
 #########################################################
-## Desenvolvido por Fábio Furtili para empresa Safeeds ##
+## Valida comissão   -   Desenvolvido por Fábio Furtili##
 #########################################################
 
 import flet as ft
